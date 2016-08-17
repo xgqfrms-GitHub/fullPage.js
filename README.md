@@ -62,7 +62,9 @@ As you can see in the example files, you will need to include:
  - The JavaScript file `jquery.fullPage.js` (or its minified version `jquery.fullPage.min.js`)
  - The css file `jquery.fullPage.css`
 
- **Optionally**, when using `css3:false`, you can add the [jQuery UI library](http://jqueryui.com/) in case you want to use other easing effects apart from the ones included in the jQuery library (`linear` and `swing` ) or the one included by default in fullPage.js (`easeInOutCubic`).
+ **Optionally**, when using `css3:false`, you can add the [jQuery UI library](http://jqueryui.com/)  
+ in case you want to use other easing effects apart from the ones included in the jQuery library (`linear` and `swing` )  
+ or the one included by default in fullPage.js (`easeInOutCubic`).  
 
 ### Install using bower or npm
 **Optionally**, you can install fullPage.js with bower or npm if you prefer:
@@ -82,11 +84,17 @@ npm install fullpage.js
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
-<!-- This following line is optional. Only necessary if you use the option css3:false and you want to use other easing effects rather than "linear", "swing" or "easeInOutCubic". -->
+<!--   
+  This following line is optional.   
+  Only necessary if you use the option css3:false and you want to use other easing effects   
+  rather than "linear", "swing" or "easeInOutCubic".  
+-->
 <script src="vendors/jquery.easings.min.js"></script>
 
-
-<!-- This following line is only necessary in the case of using the plugin option `scrollOverflow:true` -->
+<!--   
+  This following line is only necessary   
+  in the case of using the plugin option `scrollOverflow:true`  
+-->  
 <script type="text/javascript" src="vendors/scrolloverflow.min.js"></script>
 
 <script type="text/javascript" src="jquery.fullPage.js"></script>
